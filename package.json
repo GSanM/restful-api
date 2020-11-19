@@ -1,0 +1,25 @@
+{
+  "name": "restful_api",
+  "version": "1.0.0",
+  "description": "Template for common restful apis",
+  "main": "main.ts",
+  "scripts": {
+    "start": "nodemon dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "restful",
+    "rest",
+    "api",
+    "typescript"
+  ],
+  "author": "Gabriel S. Moraes",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.10.15",
+    "restify": "^8.5.1"
+  },
+  "devDependencies": {
+    "@types/restify": "^8.4.2"
+  }
+}
